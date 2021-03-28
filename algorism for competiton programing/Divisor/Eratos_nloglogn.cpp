@@ -6,12 +6,12 @@ using ll = long long;
 int main() {
 	ll n;
 	cin >> n;
-    vector<ll> v(n+1);
-    for(ll i=2; i<=n; i++){
-        if(v[i]>0) continue;
-        for(ll j=i*2; j<=n; j+=i){
-            v[j]++;
-        }
-    }
+	vector<ll> v(n+1);
+	for(ll i=2; i<=n; i++){
+		if(v[i]>0) continue;
+		for(ll j=i*2; j<=n; j+=i){
+			v[j]++;
+		}
+	}
 	return 0;
 }
