@@ -11,3 +11,9 @@ https://github.com/englishta/Algo/blob/main/Divisor/Eratos_nloglogn.cpp
 
 ### 素因数分解
 https://github.com/englishta/Algo/blob/main/Divisor/soinsu_bunkai.cpp
+
+### combination nCr
+https://github.com/englishta/Algo/blob/main/math/nCr.cpp
+
+### Union-Find
+https://github.com/englishta/Algo/blob/main/graph/Union-Find_ABC177D.cpp
