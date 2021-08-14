@@ -24,6 +24,5 @@ int main() {
     }
     ll ans = dp[slen][tlen];
     cout << ans << endl;
-    
     return 0;
 }
