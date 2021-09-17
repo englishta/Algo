@@ -11,12 +11,12 @@ vector<bool> Eratosthenes(int N) {
     isprime[0] = isprime[1] = false;
 
     // ‚Ó‚é‚¢
-    for (int p = 2; p <= N; ++p) {
+    for (int p = 2; p*p <= N; ++p) {
         // ‚·‚Å‚É‡¬”‚Å‚ ‚é‚à‚Ì‚ÍƒXƒLƒbƒv‚·‚é
         if (!isprime[p]) continue;
 
         // p ˆÈŠO‚Ì p ‚Ì”{”‚©‚ç‘f”ƒ‰ƒxƒ‹‚ð”’D
-        for (int q = p * 2; q <= N; q += p) {
+        for (int q = p * p; q <= N; q += p) {
             isprime[q] = false;
         }
     }
